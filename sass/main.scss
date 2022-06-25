@@ -4,7 +4,9 @@
 	box-sizing: border-box;
 	width: 100vw;
 }
+
 $bg-color: #a7f398;
+
 .container {
 	h1 {
 		font-style: italic;
@@ -13,6 +15,9 @@ $bg-color: #a7f398;
 	p {
 		font-size: medium;
 		font-family: Arial, Helvetica, sans-serif;
+		&:hover {
+			font-size: 5rem;
+		}
 	}
 }
 
